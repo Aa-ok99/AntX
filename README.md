@@ -1,5 +1,3 @@
-# AntX
-
 # 📱 Termux: The Ultimate Terminal Emulator for Android
 
 ![Termux Logo](https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
@@ -40,24 +38,84 @@ pkg install curl wget git vim nano -y
 
 ## 🛠️ Pro Setup (Level: Professional)
 
-Transform your Termux into a powerful development workstation.
-
 ### 1. Stunning Shell (Zsh + Oh My Zsh)
 ```bash
 pkg install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 2. High-Performance Shell Theme: Powerlevel10k
+### 2. Custom Neovim with NvChad ⚡
+Transform Neovim into a full-blown IDE with a beautiful UI.
+```bash
+pkg install neovim make -y
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+```
+![NvChad](https://img.shields.io/badge/NvChad-IDE-blueviolet?style=for-the-badge&logo=neovim)
+
+### 3. Shell Theme: Powerlevel10k
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 # Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
 ```
 
-### 3. Package Management
-Use `pkg` for Termux-specific packages and `apt` for standard Debian-based packages.
-- Search: `pkg search <package>`
-- Install: `pkg install <package>`
+---
+
+## 🤖 AI in Termux (The Future)
+
+Integrate Artificial Intelligence directly into your terminal workflow.
+
+### 1. Gemini AI CLI
+Use Google's powerful Gemini AI to help with terminal commands.
+```bash
+pip install -U google-generativeai
+# Register your API Key at aistudio.google.com
+export GEMINI_API_KEY="your_api_key_here"
+```
+
+### 2. Running Local LLMs (Ollama)
+Run models like Llama 3 or Mistral locally on your Android device (Requires high-end CPU).
+```bash
+pkg install ollama
+ollama run llama3
+```
+![AI](https://img.shields.io/badge/AI-Gemini_&_Ollama-FF6F00?style=for-the-badge&logo=google-gemini)
+
+---
+
+## ☁️ Deployment & Cloud
+
+Deploy your apps directly from Termux to the world.
+
+### 1. Vercel Deployment 🚀
+Ship your web projects with a single command.
+```bash
+npm install -g vercel
+vercel login
+vercel deploy
+```
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+
+### 2. NPM Package Management
+Initialize and manage your JavaScript projects.
+```bash
+# Level: Pro
+mkdir my-app && cd my-app
+npm init -y
+npm install express
+```
+
+---
+
+## 📊 Data & Databases
+
+Manage persistent data structures for your applications.
+
+| Database | Install Command | Type | Badge |
+| :--- | :--- | :--- | :--- |
+| **SQLite** | `pkg install sqlite` | SQL (Lite) | ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) |
+| **Redis** | `pkg install redis` | NoSQL (Key-Value) | ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) |
+| **MariaDB** | `pkg install mariadb` | SQL (Full) | ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white) |
+| **PostgreSQL**| `pkg install postgresql` | SQL (Enterprise) | ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) |
 
 ---
 
@@ -118,6 +176,51 @@ Termux uses Volume buttons to simulate special keys:
 - **Volume Down + C**: `Ctrl + C` (Interrupt).
 - **Volume Up + L**: `Ctrl + L` (Clear).
 - **Volume Up + W,A,S,D**: Arrow keys.
+
+---
+
+## ⚡ Automation & Pro Tips
+
+Efficiency is the difference between a user and a master.
+
+### 1. Cron Jobs (Scheduled Tasks)
+Automate backups or system checks.
+```bash
+pkg install cronie
+crontab -e
+# Example: 0 0 * * * ~/scripts/backup.sh (Runs at midnight)
+```
+
+### 2. Port Forwarding (Serve Globally)
+Expose your local Termux server to the public internet.
+```bash
+# Using Ngrok
+pkg install wget
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
+unzip ngrok-stable-linux-arm64.zip
+./ngrok http 8080
+```
+![Ngrok](https://img.shields.io/badge/ngrok-635BFF?style=flat&logo=ngrok&logoColor=white)
+
+---
+
+## 🎨 Styling Your Terminal
+
+Make your workspace look like a professional hacking rig.
+
+### 1. Retro Colors & Fonts
+Install `termux-styling` from F-Droid, then long-press on screen > More > Style.
+**Recommended Fonts:**
+- JetBrains Mono
+- Fira Code
+- Ubuntu Mono
+
+### 2. Custom Welcome Banner
+Edit your login message.
+```bash
+pkg install figlet toilet
+echo "figlet 'TERMUX PRO'" >> ~/.zshrc
+```
 
 ---
 
