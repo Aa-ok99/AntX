@@ -1,10 +1,7 @@
-# 🚀 TERMUX MASTER HUB | ULTIMATE TOOLKIT**The definitive collection of high-performance scripts and tools for Termux. Copy, Paste, and Dominate.**
----
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Ready_for_Deployment-FF3131?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Environment-Termux_Android-00ff41?style=for-the-badge" alt="Env">
-  <img src="https://img.shields.io/badge/Mode-Copy--Paste-blue?style=for-the-badge" alt="Mode">
-</p>
+# ✨​AntX®️®️®️♨️ 
+# ®️ Termux: The Ultimate Terminal Emulator for Android
+
+![Termux Logo] (https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 ---
 
 ## 🧠 1. [INTELLIGENCE] AI MASTER TOOLS
