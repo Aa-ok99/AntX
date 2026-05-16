@@ -14,12 +14,11 @@
 <p align="center"><img src="https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg" width="200" alt="Vercel Logo"></p>
 
 
-## 💻 3. [IDE] ULTRA-MODERN EDITOR
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim_logo.svg" width="100" alt="Neovim Logo"></p>
+## 💻 3. [IDE] NEOVIM
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim_logo.svg" width="70"></p>
 
-
-## 🗄️ 4. [DATA] RELATIONAL PERSISTENCE
-<p align="center"><img src="https://mariadb.org/wp-content/uploads/2019/08/MariaDB_Logo_Primary_No_Background.png" width="200" alt="MariaDB Logo"></p>
+## 🗄️ 4. [DATA] MARIADB  
+<p align="center"><img src="https://mariadb.org/wp-content/uploads/2019/08/MariaDB_Logo_Primary_No_Background.png" width="130"></p>
 
 
 ## 🛠️ 5. [UTILITIES] MASTER VECTORS
