@@ -1,7 +1,9 @@
-# ✨​AntX®️®️®️♨️ 
-# ®️ Termux: The Ultimate Terminal Emulator for Android
+# ✨ AntX Termux Suite
 
-![Termux Logo] (https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![Termux Logo](https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
+> **Termux**: Ultimate Terminal Emulator for Android
+
 ---
 
 ## 🧠 1. [INTELLIGENCE] AI MASTER TOOLS
@@ -32,6 +34,6 @@
 <p align="center">
   <b>"TERMINAL IS NOT AN APP, IT IS AN OS."</b><br>
   Designed for ⚡ High-Speed Deployment by <i>Termux Master Architect</i>
+  
 </p>
 ---
-*l l l l l l l*
